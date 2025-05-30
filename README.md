@@ -8,5 +8,5 @@ Small businesses often face challenges when it comes to making effective decisio
 ├── data/ # Processed datasets  
 ├── models/ # Saved model files  
 ├── streamlit/ # Application for prediction (problem 1 & 2)   
-├── results/ # saved results for both problem 1 & 2
+├── results/ # saved results for both problem 1 & 2  
 └── README.md # Project overview  
