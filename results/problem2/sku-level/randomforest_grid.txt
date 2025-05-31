@@ -1,0 +1,139 @@
+Training Random Forest for SKU: next_B10-1000_count
+Best Params: {'max_depth': 20, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 100}
+Selected threshold for next_B10-1000_count: 0.1372 | Precision: 0.2857 | Recall: 0.3529 | F1: 0.3158
+Training Accuracy for next_B10-1000_count: 0.8889
+Testing Accuracy for next_B10-1000_count: 0.8243
+Top 10 Important Features for next_B10-1000_count:
+1. time_since_first_purchase: 0.0238
+2. billing_zip_main_94110: 0.0189
+3. total_order_value: 0.0160
+4. refunded_total: 0.0148
+5. order_day_sin: 0.0115
+6. mean_household_income: 0.0114
+7. median_household_income: 0.0113
+8. order_total: 0.0111
+9. order_hour_sin: 0.0110
+10. moe_median_household_income: 0.0109
+
+Training Random Forest for SKU: next_C6-1000_count
+Best Params: {'max_depth': None, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+Selected threshold for next_C6-1000_count: 0.1200 | Precision: 0.2278 | Recall: 0.7500 | F1: 0.3495
+Training Accuracy for next_C6-1000_count: 1.0000
+Testing Accuracy for next_C6-1000_count: 0.5473
+Top 10 Important Features for next_C6-1000_count:
+1. median_household_income: 0.0239
+2. order_minute_cos: 0.0235
+3. mean_household_income: 0.0225
+4. order_hour_cos: 0.0220
+5. order_total: 0.0219
+6. order_day_sin: 0.0218
+7. order_minute_sin: 0.0213
+8. moe_mean_household_income: 0.0197
+9. order_hour_sin: 0.0196
+10. moe_median_household_income: 0.0189
+
+Training Random Forest for SKU: next_C8-1000_count
+Best Params: {'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 2, 'min_samples_split': 10, 'n_estimators': 200}
+Selected threshold for next_C8-1000_count: 0.1317 | Precision: 0.2564 | Recall: 0.7143 | F1: 0.3774
+Training Accuracy for next_C8-1000_count: 0.8620
+Testing Accuracy for next_C8-1000_count: 0.5541
+Top 10 Important Features for next_C8-1000_count:
+1. order_total: 0.0397
+2. order_year: 0.0348
+3. average_order_value: 0.0324
+4. billing_zip_main_60134: 0.0314
+5. total_order_value: 0.0305
+6. std_order_value: 0.0262
+7. billing_state_IL: 0.0260
+8. C8-1000_count: 0.0257
+9. P4-1000_count: 0.0250
+10. billing_state_WA: 0.0241
+
+Training Random Forest for SKU: next_N6-1000_count
+Best Params: {'max_depth': 50, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 100}
+Selected threshold for next_N6-1000_count: 0.0683 | Precision: 0.1392 | Recall: 1.0000 | F1: 0.2444
+Training Accuracy for next_N6-1000_count: 0.9355
+Testing Accuracy for next_N6-1000_count: 0.5405
+Top 10 Important Features for next_N6-1000_count:
+1. time_since_last_purchase: 0.0258
+2. time_since_first_purchase: 0.0200
+3. order_day_cos: 0.0195
+4. order_minute_sin: 0.0189
+5. std_order_value: 0.0188
+6. order_hour_cos: 0.0187
+7. mean_household_income: 0.0184
+8. median_household_income: 0.0183
+9. order_total: 0.0183
+10. moe_mean_household_income: 0.0181
+
+Training Random Forest for SKU: next_P4-1000_count
+Best Params: {'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 200}
+Selected threshold for next_P4-1000_count: 0.2228 | Precision: 0.4000 | Recall: 0.7692 | F1: 0.5263
+Training Accuracy for next_P4-1000_count: 0.7849
+Testing Accuracy for next_P4-1000_count: 0.6351
+Top 10 Important Features for next_P4-1000_count:
+1. order_total: 0.0326
+2. average_order_value: 0.0281
+3. billing_zip_main_60134: 0.0272
+4. total_order_value: 0.0242
+5. order_minute_sin: 0.0227
+6. P4-1000_count: 0.0197
+7. moe_mean_household_income: 0.0187
+8. std_order_value: 0.0186
+9. order_year: 0.0175
+10. order_day_cos: 0.0173
+
+Training Random Forest for SKU: next_S10-1000_count
+Best Params: {'max_depth': 50, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+Selected threshold for next_S10-1000_count: 0.0962 | Precision: 0.1818 | Recall: 0.4615 | F1: 0.2609
+Training Accuracy for next_S10-1000_count: 1.0000
+Testing Accuracy for next_S10-1000_count: 0.7703
+Top 10 Important Features for next_S10-1000_count:
+1. order_total: 0.0270
+2. order_minute_cos: 0.0269
+3. moe_median_household_income: 0.0243
+4. order_minute_sin: 0.0237
+5. mean_household_income: 0.0211
+6. order_hour_cos: 0.0209
+7. moe_mean_household_income: 0.0204
+8. median_household_income: 0.0201
+9. order_day_cos: 0.0200
+10. order_month_cos: 0.0194
+
+Training Random Forest for SKU: next_HR12-1000_count
+Best Params: {'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 10, 'n_estimators': 100}
+Selected threshold for next_HR12-1000_count: 0.1570 | Precision: 0.2353 | Recall: 0.5714 | F1: 0.3333
+Training Accuracy for next_HR12-1000_count: 0.9032
+Testing Accuracy for next_HR12-1000_count: 0.7838
+Top 10 Important Features for next_HR12-1000_count:
+1. N6-1000_count: 0.0397
+2. moe_mean_household_income: 0.0359
+3. std_order_value: 0.0342
+4. shipping_method_Shipping: 0.0294
+5. median_household_income: 0.0288
+6. time_since_first_purchase: 0.0279
+7. order_minute_sin: 0.0266
+8. mean_household_income: 0.0263
+9. order_total: 0.0253
+10. total_order_value: 0.0242
+
+Overall Model Performance: 
+Overall Training Accuracy: 0.9107
+Overall Testing Accuracy: 0.6651
+Overall Precision: 0.5872
+Overall Recall: 0.6705
+Overall F1 Score: 0.5680
+Overall AUC Score: 0.6849
+Overall Negative Precision: 0.9262
+Overall Negative Recall: 0.6629
+
+Saved all trained models and evaluation plots!
+
+Individual AUC Scores per SKU:
+next_B10-1000_count: 0.6125
+next_C6-1000_count: 0.6216
+next_C8-1000_count: 0.6262
+next_N6-1000_count: 0.7206
+next_P4-1000_count: 0.6904
+next_S10-1000_count: 0.6319
+next_HR12-1000_count: 0.6599

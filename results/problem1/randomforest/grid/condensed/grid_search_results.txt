@@ -1,0 +1,244 @@
+--- All Parameter Combinations Tested ---
+Combination 1: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 100}
+Mean AP Score: 0.66194  |  Std: 0.03289
+
+Combination 2: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 200}
+Mean AP Score: 0.66752  |  Std: 0.03202
+
+Combination 3: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 500}
+Mean AP Score: 0.67216  |  Std: 0.03690
+
+Combination 4: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 100}
+Mean AP Score: 0.66380  |  Std: 0.03734
+
+Combination 5: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 200}
+Mean AP Score: 0.66983  |  Std: 0.03555
+
+Combination 6: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 500}
+Mean AP Score: 0.67541  |  Std: 0.03687
+
+Combination 7: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 10, 'n_estimators': 100}
+Mean AP Score: 0.66628  |  Std: 0.03935
+
+Combination 8: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 10, 'n_estimators': 200}
+Mean AP Score: 0.67140  |  Std: 0.03440
+
+Combination 9: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 10, 'n_estimators': 500}
+Mean AP Score: 0.67519  |  Std: 0.03783
+
+Combination 10: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 2, 'n_estimators': 100}
+Mean AP Score: 0.66855  |  Std: 0.03960
+
+Combination 11: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 2, 'n_estimators': 200}
+Mean AP Score: 0.67540  |  Std: 0.03774
+
+Combination 12: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 2, 'n_estimators': 500}
+Mean AP Score: 0.67771  |  Std: 0.03507
+
+Combination 13: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 5, 'n_estimators': 100}
+Mean AP Score: 0.66855  |  Std: 0.03960
+
+Combination 14: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 5, 'n_estimators': 200}
+Mean AP Score: 0.67540  |  Std: 0.03774
+
+Combination 15: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 5, 'n_estimators': 500}
+Mean AP Score: 0.67771  |  Std: 0.03507
+
+Combination 16: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+Mean AP Score: 0.66545  |  Std: 0.03047
+
+Combination 17: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 200}
+Mean AP Score: 0.67079  |  Std: 0.02896
+
+Combination 18: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 500}
+Mean AP Score: 0.67797  |  Std: 0.03312
+
+Combination 19: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 100}
+Mean AP Score: 0.66828  |  Std: 0.02803
+
+Combination 20: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 200}
+Mean AP Score: 0.67278  |  Std: 0.02738
+
+Combination 21: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 500}
+Mean AP Score: 0.67637  |  Std: 0.03044
+
+Combination 22: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 100}
+Mean AP Score: 0.66828  |  Std: 0.02803
+
+Combination 23: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 200}
+Mean AP Score: 0.67278  |  Std: 0.02738
+
+Combination 24: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 500}
+Mean AP Score: 0.67637  |  Std: 0.03044
+
+Combination 25: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 10, 'n_estimators': 100}
+Mean AP Score: 0.66828  |  Std: 0.02803
+
+Combination 26: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 10, 'n_estimators': 200}
+Mean AP Score: 0.67278  |  Std: 0.02738
+
+Combination 27: {'bootstrap': True, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 10, 'n_estimators': 500}
+Mean AP Score: 0.67637  |  Std: 0.03044
+
+Combination 28: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 100}
+Mean AP Score: 0.66493  |  Std: 0.03628
+
+Combination 29: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 200}
+Mean AP Score: 0.66756  |  Std: 0.03474
+
+Combination 30: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 500}
+Mean AP Score: 0.67378  |  Std: 0.03646
+
+Combination 31: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 100}
+Mean AP Score: 0.66087  |  Std: 0.04173
+
+Combination 32: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 200}
+Mean AP Score: 0.67011  |  Std: 0.03829
+
+Combination 33: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 500}
+Mean AP Score: 0.67380  |  Std: 0.03793
+
+Combination 34: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 10, 'n_estimators': 100}
+Mean AP Score: 0.66918  |  Std: 0.04089
+
+Combination 35: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 10, 'n_estimators': 200}
+Mean AP Score: 0.67475  |  Std: 0.03456
+
+Combination 36: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 10, 'n_estimators': 500}
+Mean AP Score: 0.67652  |  Std: 0.03697
+
+Combination 37: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 2, 'n_estimators': 100}
+Mean AP Score: 0.66785  |  Std: 0.04031
+
+Combination 38: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 2, 'n_estimators': 200}
+Mean AP Score: 0.67587  |  Std: 0.03670
+
+Combination 39: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 2, 'n_estimators': 500}
+Mean AP Score: 0.67677  |  Std: 0.03411
+
+Combination 40: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 5, 'n_estimators': 100}
+Mean AP Score: 0.66785  |  Std: 0.04031
+
+Combination 41: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 5, 'n_estimators': 200}
+Mean AP Score: 0.67587  |  Std: 0.03670
+
+Combination 42: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 5, 'n_estimators': 500}
+Mean AP Score: 0.67677  |  Std: 0.03411
+
+Combination 43: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+Mean AP Score: 0.66761  |  Std: 0.03072
+
+Combination 44: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 200}
+Mean AP Score: 0.67267  |  Std: 0.03078
+
+Combination 45: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 500}
+Mean AP Score: 0.67859  |  Std: 0.03336
+
+Combination 46: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 100}
+Mean AP Score: 0.66807  |  Std: 0.02810
+
+Combination 47: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 200}
+Mean AP Score: 0.67238  |  Std: 0.02757
+
+Combination 48: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 500}
+Mean AP Score: 0.67616  |  Std: 0.03082
+
+Combination 49: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 100}
+Mean AP Score: 0.66807  |  Std: 0.02810
+
+Combination 50: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 200}
+Mean AP Score: 0.67238  |  Std: 0.02757
+
+Combination 51: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 500}
+Mean AP Score: 0.67616  |  Std: 0.03082
+
+Combination 52: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 10, 'n_estimators': 100}
+Mean AP Score: 0.66807  |  Std: 0.02810
+
+Combination 53: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 10, 'n_estimators': 200}
+Mean AP Score: 0.67238  |  Std: 0.02757
+
+Combination 54: {'bootstrap': True, 'max_depth': 50, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 10, 'n_estimators': 500}
+Mean AP Score: 0.67616  |  Std: 0.03082
+
+Combination 55: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 100}
+Mean AP Score: 0.66490  |  Std: 0.03651
+
+Combination 56: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 200}
+Mean AP Score: 0.66738  |  Std: 0.03518
+
+Combination 57: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 500}
+Mean AP Score: 0.67380  |  Std: 0.03665
+
+Combination 58: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 100}
+Mean AP Score: 0.66068  |  Std: 0.04208
+
+Combination 59: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 200}
+Mean AP Score: 0.66977  |  Std: 0.03838
+
+Combination 60: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 500}
+Mean AP Score: 0.67354  |  Std: 0.03809
+
+Combination 61: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 10, 'n_estimators': 100}
+Mean AP Score: 0.66957  |  Std: 0.04134
+
+Combination 62: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 10, 'n_estimators': 200}
+Mean AP Score: 0.67503  |  Std: 0.03454
+
+Combination 63: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 10, 'n_estimators': 500}
+Mean AP Score: 0.67637  |  Std: 0.03689
+
+Combination 64: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 2, 'n_estimators': 100}
+Mean AP Score: 0.66785  |  Std: 0.04031
+
+Combination 65: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 2, 'n_estimators': 200}
+Mean AP Score: 0.67587  |  Std: 0.03670
+
+Combination 66: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 2, 'n_estimators': 500}
+Mean AP Score: 0.67677  |  Std: 0.03411
+
+Combination 67: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 5, 'n_estimators': 100}
+Mean AP Score: 0.66785  |  Std: 0.04031
+
+Combination 68: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 5, 'n_estimators': 200}
+Mean AP Score: 0.67587  |  Std: 0.03670
+
+Combination 69: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 5, 'n_estimators': 500}
+Mean AP Score: 0.67677  |  Std: 0.03411
+
+Combination 70: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 100}
+Mean AP Score: 0.66761  |  Std: 0.03072
+
+Combination 71: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 200}
+Mean AP Score: 0.67267  |  Std: 0.03078
+
+Combination 72: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 10, 'n_estimators': 500}
+Mean AP Score: 0.67859  |  Std: 0.03336
+
+Combination 73: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 100}
+Mean AP Score: 0.66807  |  Std: 0.02810
+
+Combination 74: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 200}
+Mean AP Score: 0.67238  |  Std: 0.02757
+
+Combination 75: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 500}
+Mean AP Score: 0.67616  |  Std: 0.03082
+
+Combination 76: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 100}
+Mean AP Score: 0.66807  |  Std: 0.02810
+
+Combination 77: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 200}
+Mean AP Score: 0.67238  |  Std: 0.02757
+
+Combination 78: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 500}
+Mean AP Score: 0.67616  |  Std: 0.03082
+
+Combination 79: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 10, 'n_estimators': 100}
+Mean AP Score: 0.66807  |  Std: 0.02810
+
+Combination 80: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 10, 'n_estimators': 200}
+Mean AP Score: 0.67238  |  Std: 0.02757
+
+Combination 81: {'bootstrap': True, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 10, 'n_estimators': 500}
+Mean AP Score: 0.67616  |  Std: 0.03082
+

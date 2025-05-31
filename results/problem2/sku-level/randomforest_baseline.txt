@@ -1,0 +1,132 @@
+Training Random Forest for SKU: next_B10-1000_count
+Selected threshold for next_B10-1000_count: 0.0700 | Precision: 0.1549 | Recall: 0.6471 | F1: 0.2500
+Training Accuracy for next_B10-1000_count: 1.0000
+Testing Accuracy for next_B10-1000_count: 0.5541
+Top 10 Important Features for next_B10-1000_count:
+1. order_minute_sin: 0.0267
+2. time_since_first_purchase: 0.0250
+3. total_order_value: 0.0234
+4. order_total: 0.0233
+5. order_minute_cos: 0.0215
+6. order_day_cos: 0.0212
+7. order_day_sin: 0.0190
+8. time_since_last_purchase: 0.0187
+9. moe_mean_household_income: 0.0166
+10. order_hour_cos: 0.0165
+
+Training Random Forest for SKU: next_C6-1000_count
+Selected threshold for next_C6-1000_count: 0.0400 | Precision: 0.1885 | Recall: 0.9583 | F1: 0.3151
+Training Accuracy for next_C6-1000_count: 1.0000
+Testing Accuracy for next_C6-1000_count: 0.3243
+Top 10 Important Features for next_C6-1000_count:
+1. mean_household_income: 0.0193
+2. order_day_sin: 0.0191
+3. order_total: 0.0188
+4. median_household_income: 0.0182
+5. order_hour_sin: 0.0178
+6. order_hour_cos: 0.0177
+7. order_minute_cos: 0.0174
+8. moe_median_household_income: 0.0168
+9. order_minute_sin: 0.0163
+10. average_order_value: 0.0152
+
+Training Random Forest for SKU: next_C8-1000_count
+Selected threshold for next_C8-1000_count: 0.1800 | Precision: 0.5833 | Recall: 0.2500 | F1: 0.3500
+Training Accuracy for next_C8-1000_count: 1.0000
+Testing Accuracy for next_C8-1000_count: 0.8243
+Top 10 Important Features for next_C8-1000_count:
+1. order_total: 0.0301
+2. order_year: 0.0227
+3. order_day_cos: 0.0200
+4. order_minute_sin: 0.0192
+5. order_minute_cos: 0.0182
+6. order_day_sin: 0.0172
+7. moe_mean_household_income: 0.0167
+8. C8-1000_count: 0.0160
+9. total_order_value: 0.0158
+10. mean_household_income: 0.0155
+
+Training Random Forest for SKU: next_N6-1000_count
+Selected threshold for next_N6-1000_count: 0.0500 | Precision: 0.1176 | Recall: 0.9091 | F1: 0.2083
+Training Accuracy for next_N6-1000_count: 1.0000
+Testing Accuracy for next_N6-1000_count: 0.4865
+Top 10 Important Features for next_N6-1000_count:
+1. order_hour_cos: 0.0244
+2. order_total: 0.0239
+3. time_since_first_purchase: 0.0234
+4. time_since_last_purchase: 0.0234
+5. order_minute_sin: 0.0217
+6. order_minute_cos: 0.0216
+7. time_between_purchases: 0.0212
+8. order_day_cos: 0.0209
+9. moe_mean_household_income: 0.0208
+10. average_order_value: 0.0206
+
+Training Random Forest for SKU: next_P4-1000_count
+Selected threshold for next_P4-1000_count: 0.2000 | Precision: 0.3898 | Recall: 0.5897 | F1: 0.4694
+Training Accuracy for next_P4-1000_count: 1.0000
+Testing Accuracy for next_P4-1000_count: 0.6486
+Top 10 Important Features for next_P4-1000_count:
+1. order_minute_sin: 0.0256
+2. order_minute_cos: 0.0244
+3. order_total: 0.0225
+4. moe_mean_household_income: 0.0220
+5. order_month_sin: 0.0215
+6. order_hour_cos: 0.0214
+7. order_day_sin: 0.0205
+8. mean_household_income: 0.0199
+9. order_hour_sin: 0.0197
+10. order_day_cos: 0.0197
+
+Training Random Forest for SKU: next_S10-1000_count
+Selected threshold for next_S10-1000_count: 0.0800 | Precision: 0.1500 | Recall: 0.4615 | F1: 0.2264
+Training Accuracy for next_S10-1000_count: 1.0000
+Testing Accuracy for next_S10-1000_count: 0.7230
+Top 10 Important Features for next_S10-1000_count:
+1. order_minute_cos: 0.0285
+2. order_total: 0.0268
+3. order_minute_sin: 0.0215
+4. mean_household_income: 0.0200
+5. order_day_cos: 0.0198
+6. order_day_sin: 0.0198
+7. order_hour_sin: 0.0186
+8. order_month_sin: 0.0177
+9. moe_mean_household_income: 0.0168
+10. median_household_income: 0.0149
+
+Training Random Forest for SKU: next_HR12-1000_count
+Selected threshold for next_HR12-1000_count: 0.1700 | Precision: 0.2222 | Recall: 0.4286 | F1: 0.2927
+Training Accuracy for next_HR12-1000_count: 1.0000
+Testing Accuracy for next_HR12-1000_count: 0.8041
+Top 10 Important Features for next_HR12-1000_count:
+1. N6-1000_count: 0.0272
+2. order_minute_sin: 0.0240
+3. order_day_cos: 0.0199
+4. total_order_value: 0.0198
+5. shipping_method_Shipping: 0.0193
+6. order_minute_cos: 0.0191
+7. order_day_sin: 0.0188
+8. time_since_first_purchase: 0.0187
+9. order_month_sin: 0.0184
+10. std_order_value: 0.0184
+
+Overall Model Performance: 
+Overall Training Accuracy: 1.0000
+Overall Testing Accuracy: 0.6236
+Overall Precision: 0.5550
+Overall Recall: 0.6091
+Overall F1 Score: 0.5239
+Overall AUC Score: 0.6535
+Overall Negative Precision: 0.9032
+Overall Negative Recall: 0.6292
+
+Saved all trained models and evaluation plots!
+
+Individual AUC Scores per SKU:
+next_B10-1000_count: 0.5947
+next_C6-1000_count: 0.5781
+next_C8-1000_count: 0.5762
+next_N6-1000_count: 0.6735
+next_P4-1000_count: 0.6140
+next_S10-1000_count: 0.6570
+next_HR12-1000_count: 0.6836

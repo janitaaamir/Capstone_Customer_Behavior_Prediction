@@ -1,0 +1,114 @@
+
+Training Random Forest for category: next_Specialty Knife_count
+Custom Threshold: 0.2800 | Precision: 0.4511 | Recall: 0.9836 | F1: 0.6186
+Training Accuracy for next_Specialty Knife_count: 1.0000
+Testing Accuracy for next_Specialty Knife_count: 0.4752
+Top 10 Important Features for next_Specialty Knife_count:
+1. order_total: 0.0328
+2. moe_median_household_income: 0.0301
+3. order_minute_sin: 0.0291
+4. median_household_income: 0.0289
+5. moe_mean_household_income: 0.0272
+6. order_minute_cos: 0.0266
+7. order_day_cos: 0.0266
+8. mean_household_income: 0.0250
+9. order_day_sin: 0.0245
+10. order_hour_cos: 0.0228
+
+Training Random Forest for category: next_Chef Knife_count
+Custom Threshold: 0.1100 | Precision: 0.2824 | Recall: 1.0000 | F1: 0.4405
+Training Accuracy for next_Chef Knife_count: 1.0000
+Testing Accuracy for next_Chef Knife_count: 0.3333
+Top 10 Important Features for next_Chef Knife_count:
+1. order_year: 0.0294
+2. order_total: 0.0290
+3. order_minute_cos: 0.0266
+4. moe_mean_household_income: 0.0253
+5. median_household_income: 0.0243
+6. mean_household_income: 0.0239
+7. order_hour_sin: 0.0234
+8. moe_median_household_income: 0.0224
+9. order_minute_sin: 0.0219
+10. order_day_cos: 0.0211
+
+Training Random Forest for category: next_Honing Rod_count
+Custom Threshold: 0.1200 | Precision: 0.2083 | Recall: 0.3333 | F1: 0.2564
+Training Accuracy for next_Honing Rod_count: 1.0000
+Testing Accuracy for next_Honing Rod_count: 0.7943
+Top 10 Important Features for next_Honing Rod_count:
+1. order_minute_sin: 0.0309
+2. time_since_first_purchase: 0.0270
+3. total_order_value: 0.0246
+4. distinct_product_amount: 0.0243
+5. std_order_value: 0.0235
+6. median_household_income: 0.0222
+7. order_hour_cos: 0.0211
+8. order_day_sin: 0.0205
+9. order_total: 0.0202
+10. moe_mean_household_income: 0.0202
+
+Training Random Forest for category: next_Sheath_count
+Custom Threshold: 0.3100 | Precision: 0.5096 | Recall: 0.8833 | F1: 0.6463
+Training Accuracy for next_Sheath_count: 1.0000
+Testing Accuracy for next_Sheath_count: 0.5887
+Top 10 Important Features for next_Sheath_count:
+1. median_household_income: 0.0363
+2. moe_mean_household_income: 0.0339
+3. mean_household_income: 0.0317
+4. order_total: 0.0288
+5. order_minute_sin: 0.0278
+6. moe_median_household_income: 0.0276
+7. order_day_sin: 0.0267
+8. order_day_cos: 0.0239
+9. order_minute_cos: 0.0239
+10. order_year: 0.0211
+
+Overall Model Performance: 
+Overall Training Accuracy: 1.0000
+Overall Testing Accuracy: 0.5479
+Overall Precision: 0.6454
+Overall Recall: 0.6449
+Overall F1 Score: 0.5479
+Overall AUC Score: 0.7062
+
+--- Example Predictions on Test Set ---
+
+Person ID: adam bargteil 21146
+  Actual Categories: ['next_Honing Rod']
+  Predicted Probabilities:
+    - next_Specialty Knife: 0.4000
+    - next_Chef Knife: 0.1000
+    - next_Honing Rod: 0.0600
+    - next_Sheath: 0.3800
+
+Person ID: alex nelson 97209
+  Actual Categories: ['next_Chef Knife', 'next_Sheath']
+  Predicted Probabilities:
+    - next_Specialty Knife: 0.1500
+    - next_Chef Knife: 0.6500
+    - next_Honing Rod: 0.0300
+    - next_Sheath: 0.4000
+
+Person ID: amie donah 23225
+  Actual Categories: ['next_Chef Knife']
+  Predicted Probabilities:
+    - next_Specialty Knife: 0.3100
+    - next_Chef Knife: 0.1200
+    - next_Honing Rod: 0.0400
+    - next_Sheath: 0.3200
+
+Person ID: amie donah 23225
+  Actual Categories: []
+  Predicted Probabilities:
+    - next_Specialty Knife: 0.3500
+    - next_Chef Knife: 0.2100
+    - next_Honing Rod: 0.0800
+    - next_Sheath: 0.3800
+
+Person ID: andrew thomas 20155
+  Actual Categories: ['next_Honing Rod']
+  Predicted Probabilities:
+    - next_Specialty Knife: 0.3400
+    - next_Chef Knife: 0.1400
+    - next_Honing Rod: 0.0400
+    - next_Sheath: 0.2700
