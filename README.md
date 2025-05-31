@@ -9,4 +9,5 @@ Small businesses often face challenges when it comes to making effective decisio
 ├── models/ # Saved model files  
 ├── streamlit/ # Application for prediction (problem 1 & 2)   
 ├── results/ # saved results for both problem 1 & 2  
+├── preprocessing/ # data preprocessing and enrichment pipeline  
 └── README.md # Project overview  
